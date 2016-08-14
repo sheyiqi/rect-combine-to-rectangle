@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\rect\rect\rect.h">
+    <ClInclude Include="rect.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\rect\rect\recreaterect.cpp">
+    <ClCompile Include="rectCombine.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

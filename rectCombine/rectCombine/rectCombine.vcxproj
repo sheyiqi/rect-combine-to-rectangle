@@ -10,6 +10,12 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rect.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="rectCombine.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0723B99C-853B-47A1-9B68-3CECBE9E6F31}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -73,12 +79,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\rect\rect\rect.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\rect\rect\recreaterect.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
