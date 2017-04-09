@@ -7,11 +7,11 @@ using namespace std;
 int main() 
 {
     //input zuobiao
-    of stream fout("output.txt");
+    ofstream fout("output.txt");
     int maxnum=sizeof(rc)/sizeof(rc[0]);
     for(int k=0; k<=rc[maxnum-1].flag;k++)
     {
-        vector<Rect> vecRect;
+        vector<Rect> VecRect;
         for(int i=0; i<maxnum; i++)
         {
             if(rc[i].flag == k && k!=0)
@@ -58,7 +58,7 @@ int main()
             fout << "(" << VecRect[i].getx1() << "," << VecRect[i].gety1() << ")" << " "
                 << "(" << VecRect[i].getx2() << "," << VecRect[i].gety2() << ")" << endl;
         }
-        fout << endl
+        fout << endl;
     }
 	fout.close();
 	return 0;

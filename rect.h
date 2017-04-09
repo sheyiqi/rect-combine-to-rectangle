@@ -10,7 +10,7 @@ private:
 public:
 	Rect(double BLx, double BLy, double TRx, double TRy)
 	{
-		this->x1=BLX;
+		this->x1=BLx;
 		this->y1=BLy;
 		this->x2=TRx;
 		this->y2=TRy;
